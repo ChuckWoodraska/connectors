@@ -51,6 +51,7 @@ class ConfigConnector:
         self.interval_hours = self.interval_days * 24
         self.interval_seconds = self.interval_hours * 60 * 60
         # Connector extra parameters
+        #test
         self.api_base_url = get_config_variable(
             "FIRST_EPSS_API_BASE_URL",
             ["first_epss", "api_base_url"],
